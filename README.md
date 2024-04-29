@@ -7,7 +7,7 @@
     border: none;
     vertical-align: top;
   }
-</style>
+</style>history
 
 <table id="noborder">
   <tbody>
