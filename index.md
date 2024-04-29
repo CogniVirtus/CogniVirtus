@@ -42,7 +42,7 @@
     </tr>
     <tr>
       <td colspan="2">
-        <p>But that's not all... We eat our own dogfood and are using a Lean Startup and Design Thinking approach, so there will be more products coming soon. Everything will start as MVP and then progress (or not) based on <b>your</b> feedback and demand.
+        <br>But that's not all... We eat our own dogfood and are using a Lean Startup and Design Thinking approach, so there will be more products coming soon. Everything will start as MVP and then progress (or not) based on <b>your</b> feedback and demand.
       </td>
     </tr>
   </tbody>
