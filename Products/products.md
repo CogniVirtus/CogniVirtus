@@ -1,6 +1,8 @@
 # Products
 
-Our first product, the [Architecture Copilot](../Products/architectureCopilot.html) is now released! You can [check it out at OpenAI](https://chat.openai.com/g/g-iHXlDzolq-architecture-copilot) if you have a [Chat GPT Plus](https://openai.com/blog/chatgpt-plus) subscription.
+# Our first product, the [Architecture Copilot](../Products/architectureCopilot.html) is now released!
+
+You can [check it out at OpenAI](https://chat.openai.com/g/g-iHXlDzolq-architecture-copilot) if you have a [Chat GPT Plus](https://openai.com/blog/chatgpt-plus) subscription.
 
 Although Products are currently our main focus, we are open to [Strategic Consulting](../Consulting/strategic.html) and [Technical Consulting](../Consulting/technology.html) for the adoption and usage of AI's in a responsible and predictable manner for the right client and project.
 
