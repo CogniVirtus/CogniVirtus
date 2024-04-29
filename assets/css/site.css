@@ -1,0 +1,101 @@
+/* Remove borders from the header and footer */
+header, footer {
+  border: none;
+}
+
+/* Remove box-shadows if they are used */
+body, .wrapper {
+  box-shadow: none;
+}
+
+/* If lines are applied as top or bottom borders in the main content */
+main {
+  border-top: none;
+  border-bottom: none;
+}
+
+/* Hide the mobile nav trigger checkbox */
+.nav-trigger {
+  display: none;
+}
+
+/* Hide the label for the nav trigger, which contains the hamburger icon */
+.site-nav label {
+  display: none;
+}
+
+/* This will hide empty list items */
+li:empty {
+  display: none;
+}
+
+/* Specifically targeting any '.p-name' class that might be empty */
+.p-name {
+  display: none;
+}
+
+body { /* Website Style */
+  font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+/* Responsive image styles */
+img-full-width {
+  width: 100%;
+  height: auto;
+}
+
+img-half-width {
+  width: 50%;
+  height: auto;
+}
+
+/* Navigation Menu */
+.nav {
+  font-family: Helvetica, Arial, sans-serif;
+  list-style-type: none;
+  padding-left: 0;
+  display: flex;                /* Horizontally align the .nav-item elements */
+  background-color: #d6cce0;  /* Light purple */
+  color: #000000;             /* Border Colour */
+}
+
+.nav-item {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.nav-item.active {
+  background-color: #c8d5e2;
+  color: #4d4c4c;
+}
+
+.nav-item.active .nav-link {
+  color: #000000;
+}
+
+.nav-link:hover {
+  color: #4d4c4c;
+}
+
+/* Breadcrumbs */
+.breadcrumb {
+  background-color: #f5f5f5;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  font-size: 0.9rem;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+  content: "/";
+  margin: 0 0.5rem;
+}
+
+.breadcrumb-item a {
+  color: #333;
+  text-decoration: none;
+}
+
+.breadcrumb-item.active {
+  color: #666;
+}
