@@ -1,4 +1,3 @@
-# Architecture Copilot Feedback
 
 <iframe
   class="responsive-iframe architectureCopilotFeedback-form"
