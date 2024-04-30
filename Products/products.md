@@ -8,4 +8,6 @@ Although Products are currently our main focus, we are open to [Strategic Consul
 
 #### [Contact Us](../contact.html) if you'd like more information or have a project or initiative that you'd like help with.
 
-![CogniVirtus Products](./CogniVirtus%20-%20Products.jpg)
+<!-- ![CogniVirtus Products](./CogniVirtus%20-%20Products.jpg) -->
+
+<img src="./CogniVirtus%20-%20Products.jpg" alt="CogniVirtus Products" class="img-full-width">

@@ -6,4 +6,6 @@ Although we're working on our own AI products, the first is [Architecture Copilo
 
 ### [Contact Us](../contact.html) if you'd like more information or have a project or initiative that you'd like help with.
 
-![Cognivirtus AI Office](../Images/CogniVirtus%20Office.jpg)
+<!-- ![Cognivirtus AI Office](../Images/CogniVirtus%20Office.jpg) -->
+
+<img src="../Images/CogniVirtus%20Office.jpg" alt="Cognivirtus AI Office" class="img-full-width">

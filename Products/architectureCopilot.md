@@ -1,6 +1,8 @@
 # Architecture Copilot
 
-![Architecture Copilot](./ArchitectureCopilot-condensed.png)
+<!-- ![Architecture Copilot](./ArchitectureCopilot-condensed.png) -->
+
+<img src="./ArchitectureCopilot-condensed.png" alt="Architecture Copilot" class="img-full-width">
 
 # This is our first Product!
 

@@ -5,4 +5,6 @@ the best policies, practices and technologies to use in order to implement AI pr
 
 ### [Contact Us](../contact.html) if you'd like more information or have a project or initiative that you'd like help with.
 
-![Strategic Consulting](./CogniVirtus%20-%20Stregic%20Consulting.jpg)
+<!-- ![Strategic Consulting](./CogniVirtus%20-%20Stregic%20Consulting.jpg) -->
+
+<img src="./CogniVirtus%20-%20Stregic%20Consulting.jpg" alt="Strategic Consulting" class="img-full-width">
