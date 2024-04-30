@@ -1,12 +1,10 @@
 # Architecture Copilot
 
-<!-- ![Architecture Copilot](./ArchitectureCopilot-condensed.png) -->
-
 <img src="./ArchitectureCopilot-condensed.png" alt="Architecture Copilot" class="img-full-width">
 
 ### This is our first Product 🎉
 
-You can [check it out at OpenAI](https://chat.openai.com/g/g-iHXlDzolq-architecture-copilot) if you have a [Chat GPT Plus](https://openai.com/blog/chatgpt-plus) subscription, or just watch the brief demo video below - note that the current version is even better, thank to some refactoring on our part and the latest upgrades from OpenAI to GPT4.
+You can [check it out at OpenAI](https://chat.openai.com/g/g-iHXlDzolq-architecture-copilot) if you have a [Chat GPT Plus](https://openai.com/blog/chatgpt-plus) subscription, or just watch the brief demo video below - note that the current version is even better, thanks to some refactoring and improvements by us along with the latest upgrades from OpenAI to GPT4.
 
 We are open to [Strategic Consulting](../Consulting/strategic.html) and [Technical Consulting](../Consulting/technology.html) for the adoption and usage of AI's in a responsible and predictable manner for the right client and project.
 

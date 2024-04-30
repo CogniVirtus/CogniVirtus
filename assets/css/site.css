@@ -86,12 +86,13 @@ body { /* Website Style */
   flex-wrap: wrap;      /* This allows the menu items to wrap onto the next line on small screens */
   align-items: left;  /* Ensures vertical alignment is left */
   background-color: #d6cce0;
-  padding: 2px 0;       /* Add vertical padding for better optics */
+  padding: 2px;       /* Add vertical padding for better optics */
   font-family: Helvetica, Arial, sans-serif;
   list-style-type: none;
 }
 
 .nav-item {
+  background-color: #cdbae0;
   border:  2px solid #666;  /* Darker border for better visibility */
   border-radius: 2px;
   margin:  2px;
@@ -99,7 +100,7 @@ body { /* Website Style */
 }
 
 .nav-item:hover {
-  border-color: #5c7ab2; /* Darker border on hover */
+  background-color: #5c7ab2; /* Darker border on hover */
 }
 
 .nav-item.active {
@@ -120,7 +121,6 @@ body { /* Website Style */
 .nav > li.nav-item { /* This selector targets only top-level nav-items */
   display:  flex; /* Flex to allow vertical centering */
   flex-direction: column;
-  min-height:   60px; /* Minimum height for top-level nav items */
   border: 2px solid #666;
   border-radius: 2px;
   margin:   2px;
@@ -142,21 +142,21 @@ body { /* Website Style */
 @media (max-width: 768px) {
 
   .nav-item {
-    margin: 0px;      /* Smaller margin for mobile */
-    padding: 0px 0px; /* Smaller padding for mobile */
+    margin: 1px;      /* Smaller margin for mobile */
+    padding: 1px; /* Smaller padding for mobile */
   }
   .nav-link {
     font-size: 12px;  /* Adjust as needed */
   }
 
   .nav > li.nav-item {
-    padding: 0px;     /* Reduced padding for smaller screens */
-    min-height: 40px; /* Slightly smaller height if necessary */
-    margin: 0px;      /* Smaller margin for compact spacing */
+    margin: 1px;      /* Smaller margin for compact spacing */
+    padding: 1px;     /* Reduced padding for smaller screens */
   }
 
   .nav .nav-item .nav li {
-    padding: 0px;     /* Adjusted for sub-items */
+    margin: 1px;      /* Smaller margin for compact spacing */
+    padding: 1px;     /* Adjusted for sub-items */
   }
 
 }
@@ -178,7 +178,14 @@ body { /* Website Style */
   height: 100%;
 }
 
-  table#noborder td {
-    border: none;
-    vertical-align: top;
-  }
+/* Table styles */
+
+table#noborder td {
+  border: none;
+  vertical-align: top;
+}
+
+.fixed-table {
+  table-layout: fixed;
+  width: 100%;
+}
