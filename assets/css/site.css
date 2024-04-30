@@ -16,6 +16,10 @@
   height: 2920px; /* Custom height for Architecture Copilot Feedback Form */
 }
 
+.architectureCopilotPreview-form {
+  height: 2942px; /* Custom height for Architecture Copilot Preview Form */
+}
+
 /*
   Clean Layout
 */
@@ -77,16 +81,6 @@ body { /* Website Style */
   Navigation Menu
 */
 
-@media (max-width: 768px) {
-  .nav-item {
-    margin-right: 2px;  /* Smaller margin for mobile */
-    padding: 2px 2px;   /* Smaller padding for mobile */
-  }
-  .nav-link {
-    font-size: 14px;    /* Adjust as needed */
-  }
-}
-
 .nav {
   display: flex;
   flex-wrap: wrap;      /* This allows the menu items to wrap onto the next line on small screens */
@@ -98,10 +92,10 @@ body { /* Website Style */
 }
 
 .nav-item {
-  border: 2px solid #666; /* Darker border for better visibility */
+  border:  2px solid #666;  /* Darker border for better visibility */
   border-radius: 2px;
-  margin-right: 5px;
-  padding: 2px 4px; /* Add padding to increase the clickable area and aesthetics */
+  margin:  2px;
+  padding: 2px 2px;           /* Add padding to increase the clickable area and aesthetics */
 }
 
 .nav-item.active {
@@ -121,6 +115,16 @@ body { /* Website Style */
 
 .nav-item:hover {
   border-color: #5c7ab2; /* Darker border on hover */
+}
+
+@media (max-width: 768px) {
+  .nav-item {
+    margin: 0px;      /* Smaller margin for mobile */
+    padding: 0px 0px; /* Smaller padding for mobile */
+  }
+  .nav-link {
+    font-size: 12px;    /* Adjust as needed */
+  }
 }
 
 /* iframe container - just using for YouTube at moment... */

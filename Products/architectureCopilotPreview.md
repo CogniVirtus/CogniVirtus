@@ -1,3 +1,6 @@
-# Architecture Copilot Preview
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe8Orhu96bnliDxBt9GoDfCQ_BtM5hS3PmYZu8WNOrq-c7cgQ/viewform?embedded=true" width="100%" height=auto frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+<iframe
+  class="responsive-iframe architectureCopilotPreview-form"
+  src="https://docs.google.com/forms/d/e/1FAIpQLSe8Orhu96bnliDxBt9GoDfCQ_BtM5hS3PmYZu8WNOrq-c7cgQ/viewform?embedded=true">
+  Loading…
+</iframe>
