@@ -1,3 +1,19 @@
+/*
+  Common styles for all iframes
+*/
+.responsive-iframe {
+  width: 100%;      /* Fill whole window */
+  border: none;     /* Removes the default border */
+  margin: 0 0 0 0;  /* Removes the default margin */
+}
+
+/* Custom styles for specific forms */
+.contact-form {
+  height: 1284px; /* Custom height for Contact Form */
+}
+.architectureCopilotFeedback-form {
+  height: 2920x; /* Custom height for Form 2 */
+}
 
 /*
   Clean Layout
@@ -116,6 +132,23 @@ body { /* Website Style */
 
 .nav-item:hover {
   border-color: #5c7ab2; /* Darker border on hover */
+}
+
+/* iframe container - just using for YouTube at moment... */
+
+.iframe-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+  height: 0;
+}
+
+.iframe-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 /*
