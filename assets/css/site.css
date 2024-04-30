@@ -1,3 +1,8 @@
+
+/*
+  Clean Layout
+*/
+
 /* Remove borders from the header and footer */
 header, footer {
   border: none;
@@ -38,7 +43,9 @@ body { /* Website Style */
   font-family: 'Helvetica', 'Arial', sans-serif;
 }
 
-/* Responsive image styles */
+/*
+  Responsive image styles
+*/
 img-full-width {
   width: 100%;
   height: auto;
@@ -49,7 +56,9 @@ img-half-width {
   height: auto;
 }
 
-/* Navigation Menu */
+/*
+  Navigation Menu
+*/
 .nav {
   font-family: Helvetica, Arial, sans-serif;
   list-style-type: none;
@@ -78,7 +87,9 @@ img-half-width {
   color: #4d4c4c;
 }
 
-/* Breadcrumbs */
+/*
+  Breadcrumbs
+*/
 .breadcrumb {
   background-color: #f5f5f5;
   padding: 0.5rem 1rem;
