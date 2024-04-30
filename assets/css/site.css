@@ -81,42 +81,25 @@ body { /* Website Style */
   Navigation Menu
 */
 
-.nav {
+.nav { /* This selector targets the top-level nav */
   display: flex;
   flex-wrap: wrap;      /* This allows the menu items to wrap onto the next line on small screens */
-  justify-content: space-around; /* Centers menu items */
+  align-items: left;  /* Ensures vertical alignment is left */
   background-color: #d6cce0;
-  align-items: center;  /* Ensures vertical alignment is centered */
   padding: 2px 0;       /* Add vertical padding for better optics */
   font-family: Helvetica, Arial, sans-serif;
   list-style-type: none;
-}
-
-.nav > li.nav-item { /* This selector targets only top-level nav-items */
-  border: 2px solid #666;
-  border-radius: 2px;
-  margin:   2px;
-  padding:  2px; /* Adjust padding to increase the clickable area and aesthetics */
-  display:  flex; /* Flex to allow vertical centering */
-  align-items:  center; /* Center content vertically */
-  min-height:   48px; /* Minimum height for top-level nav items */
-}
-
-/* Ensure that the sub-menu items do not inherit the min-height */
-.nav .nav-item .nav { /* This targets the nested nav within nav-items */
-  min-height: auto;   /* Overrides any inherited min-height */
-}
-
-.nav .nav-item .nav li {  /* Targeting sub-menu nav-items specifically */
-  min-height: auto;       /* Resets any specific height, allowing content size */
-  padding: 4px 8px;       /* Smaller padding for sub-menu items */
 }
 
 .nav-item {
   border:  2px solid #666;  /* Darker border for better visibility */
   border-radius: 2px;
   margin:  2px;
-  padding: 2px 2px;           /* Add padding to increase the clickable area and aesthetics */
+  padding: 2px;           /* Add padding to increase the clickable area and aesthetics */
+}
+
+.nav-item:hover {
+  border-color: #5c7ab2; /* Darker border on hover */
 }
 
 .nav-item.active {
@@ -134,8 +117,26 @@ body { /* Website Style */
   background-color: #eee; /* Light background on hover for better visibility */
 }
 
-.nav-item:hover {
-  border-color: #5c7ab2; /* Darker border on hover */
+.nav > li.nav-item { /* This selector targets only top-level nav-items */
+  display:  flex; /* Flex to allow vertical centering */
+  flex-direction: column;
+  min-height:   60px; /* Minimum height for top-level nav items */
+  border: 2px solid #666;
+  border-radius: 2px;
+  margin:   2px;
+  padding:  2px; /* Adjust padding to increase the clickable area and aesthetics */
+}
+
+/* Ensure that the sub-menu items do not inherit the min-height */
+.nav .nav-item .nav { /* This targets the nested nav within nav-items */
+  display: flex;
+  flex-direction: row; /* Change this line */
+  min-height: auto;   /* Overrides any inherited min-height */
+}
+
+.nav .nav-item .nav li {  /* Targeting sub-menu nav-items specifically */
+  min-height: auto;       /* Resets any specific height, allowing content size */
+  padding: 2px;           /* Smaller padding for sub-menu items */
 }
 
 @media (max-width: 768px) {
@@ -149,13 +150,13 @@ body { /* Website Style */
   }
 
   .nav > li.nav-item {
-    padding: 2px;     /* Reduced padding for smaller screens */
+    padding: 0px;     /* Reduced padding for smaller screens */
     min-height: 40px; /* Slightly smaller height if necessary */
-    margin: 2px;      /* Smaller margin for compact spacing */
+    margin: 0px;      /* Smaller margin for compact spacing */
   }
 
   .nav .nav-item .nav li {
-    padding: 2px; /* Adjusted for sub-items */
+    padding: 0px;     /* Adjusted for sub-items */
   }
 
 }
