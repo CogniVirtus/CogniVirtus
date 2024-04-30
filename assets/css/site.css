@@ -46,12 +46,12 @@ body { /* Website Style */
 /*
   Responsive image styles
 */
-img-full-width {
+.img-full-width {
   width: 100%;
   height: auto;
 }
 
-img-half-width {
+.img-half-width {
   width: 50%;
   height: auto;
 }
