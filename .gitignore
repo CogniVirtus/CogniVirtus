@@ -7,3 +7,5 @@ _site/
 vendor/
 # Ignore Workspace
 CogniVirtus.code-workspace
+# Ignore tmp directory
+tmp/
