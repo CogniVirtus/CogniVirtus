@@ -26,10 +26,10 @@
 <table id="noborder">
   <tbody>
     <tr>
-      <td>
-        <img src="./Products/Architecture Copilot - MVP - body.png" alt="Architecture Copilot" class="img-half-width">
+      <td style="width:33%">
+        <img src="./Products/Architecture Copilot - MVP - body.png" alt="Architecture Copilot" class="img-full-width">
       </td>
-      <td>
+      <td style="width:67%">
         <h2>Our first product, the <a href="./Products/architectureCopilot.html">Architecture Copilot</a> GPT Has just been released!</h2>
         You can check it out <a href="https://chat.openai.com/g/g-iHXlDzolq-architecture-copilot">here</a> if you have a <a href="https://openai.com/blog/chatgpt-plus">Chat GPT Plus</a> subscription.
         <h3>Vision</h3>
