@@ -6,6 +6,4 @@ We are an Artificially Intelligence Implementation and Technology company that a
 
 ### [Contact Us](../contact.html) if you'd like more information or have a project or initiative that you'd like help with.
 
-<!-- ![Technology Consulting](./CogniVirtus%20-%20Technology%20Consulting.jpg) -->
-
 <img src="./CogniVirtus%20-%20Technology%20Consulting.jpg" alt="Technology Consulting" class="img-full-width">

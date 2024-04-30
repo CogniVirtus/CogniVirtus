@@ -1,12 +1,5 @@
 <img src="./Images/CogniVirtus%20Banner.jpg" alt="Cognivirtus - Excellence in Understanding" class="img-full-width">
 
-<style>
-  table#noborder td {
-    border: none;
-    vertical-align: top;
-  }
-</style>
-
 <table id="noborder">
   <tbody>
     <tr>

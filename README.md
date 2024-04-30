@@ -1,12 +1,5 @@
 <img src="./Images/CogniVirtus%20Banner.jpg" alt="Cognivirtus - Excellence in Understanding" class="img-full-width">
 
-<style>
-  table#noborder td {
-    border: none;
-    vertical-align: top;
-  }
-</style>
-
 <table id="noborder">
   <tbody>
     <tr>
@@ -21,6 +14,8 @@
     </tr>
   </tbody>
 </table>
+
+**Note:** Most internal site links are broken just on this GitHub, if you go to [Our Website](https://cognivirtus.com) they will all work. We'll fix this soon...
 
 ## [Products](./Products/products.html)
 
