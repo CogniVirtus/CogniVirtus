@@ -87,7 +87,7 @@ body { /* Website Style */
   justify-content: space-around; /* Centers menu items */
   background-color: #d6cce0;
   align-items: center;  /* Ensures vertical alignment is centered */
-  padding: 5px 0;       /* Add vertical padding for better optics */
+  padding: 2px 0;       /* Add vertical padding for better optics */
   font-family: Helvetica, Arial, sans-serif;
   list-style-type: none;
 }
@@ -96,7 +96,7 @@ body { /* Website Style */
   border: 2px solid #666;
   border-radius: 2px;
   margin:   2px;
-  padding:  8px 16px; /* Adjust padding to increase the clickable area and aesthetics */
+  padding:  2px; /* Adjust padding to increase the clickable area and aesthetics */
   display:  flex; /* Flex to allow vertical centering */
   align-items:  center; /* Center content vertically */
   min-height:   48px; /* Minimum height for top-level nav items */
@@ -104,12 +104,12 @@ body { /* Website Style */
 
 /* Ensure that the sub-menu items do not inherit the min-height */
 .nav .nav-item .nav { /* This targets the nested nav within nav-items */
-  padding-left: 20px; /* Provides indentation for sub-menu items */
+  min-height: auto;   /* Overrides any inherited min-height */
 }
 
-.nav .nav-item .nav li { /* Targeting sub-menu nav-items specifically */
-  min-height: auto; /* Resets any specific height, allowing content size */
-  padding: 4px 8px; /* Smaller padding for sub-menu items */
+.nav .nav-item .nav li {  /* Targeting sub-menu nav-items specifically */
+  min-height: auto;       /* Resets any specific height, allowing content size */
+  padding: 4px 8px;       /* Smaller padding for sub-menu items */
 }
 
 .nav-item {
@@ -149,13 +149,13 @@ body { /* Website Style */
   }
 
   .nav > li.nav-item {
-    padding: 4px 8px; /* Reduced padding for smaller screens */
+    padding: 2px;     /* Reduced padding for smaller screens */
     min-height: 40px; /* Slightly smaller height if necessary */
     margin: 2px;      /* Smaller margin for compact spacing */
   }
 
   .nav .nav-item .nav li {
-    padding: 2px 4px; /* Adjusted for sub-items */
+    padding: 2px; /* Adjusted for sub-items */
   }
 
 }
