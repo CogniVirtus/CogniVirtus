@@ -80,48 +80,60 @@ body { /* Website Style */
 /*
   Navigation Menu
 */
+.nav, .nav-container, 
+.nav-item .nav-item.active, .nav-item.active.nav-link,
+.nav-link, .nav-link:hover, .nav-link:active, .nav-link:focus {
+  border: none;     /* Removes all borders */
+  box-shadow: none; /* Removes any shadows if present */
+  background: none; /* Ensures no backgrounds are applied */
+}
 
 .nav { /* This selector targets the top-level nav */
   display: flex;
   flex-wrap: wrap;      /* This allows the menu items to wrap onto the next line on small screens */
   align-items: left;  /* Ensures vertical alignment is left */
-  background-color: #d6cce0;
   padding: 2px;       /* Add vertical padding for better optics */
   font-family: Helvetica, Arial, sans-serif;
   list-style-type: none;
 }
 
+
 .nav-item {
-  background-color: #cdbae0;
-  border:  2px solid #666;  /* Darker border for better visibility */
-  border-radius: 2px;
   margin:  2px;
   padding: 2px;           /* Add padding to increase the clickable area and aesthetics */
 }
-
+/*
 .nav-item:hover {
-  background-color: #5c7ab2; /* Darker border on hover */
+  background-color: #5c7ab2; /* Darker border on hover * /
 }
-
+*/
 .nav-item.active {
-  background-color: #c8d5e2;
+  /* background-color: #c8d5e2; */
   color: #4d4c4c;
-  border-color: #4d4c4c; /* Darker border for the active item */
 }
 
 .nav-item.active.nav-link {
   color: #000000;
 }
 
+.nav-link {
+  display: block;
+  padding: 8px 15px; /* Adjust padding to ensure text is centered and has some spacing */
+  background-color: #6C7AE0; /* A more vibrant color */
+  color: white; /* Contrast color for the text */
+  text-decoration: none; /* Removes underline from links */
+  border-radius: 10px; /* Rounded corners, adjust the px value to increase/decrease roundness */
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
 .nav-link:hover {
-  color: #8d699e;
-  background-color: #eee; /* Light background on hover for better visibility */
+  font-weight: bold;           /* Bold text on hover */
+  background-color: #5A6ABF; /* Slightly darker shade on hover for interactive feel */
 }
 
 .nav > li.nav-item { /* This selector targets only top-level nav-items */
   display:  flex; /* Flex to allow vertical centering */
   flex-direction: column;
-  border: 2px solid #666;
   border-radius: 2px;
   margin:   2px;
   padding:  2px; /* Adjust padding to increase the clickable area and aesthetics */
@@ -139,8 +151,8 @@ body { /* Website Style */
   padding: 2px;           /* Smaller padding for sub-menu items */
 }
 
-@media (max-width: 768px) {
 
+@media (max-width: 768px) {
   .nav-item {
     margin: 1px;      /* Smaller margin for mobile */
     padding: 1px; /* Smaller padding for mobile */
@@ -158,7 +170,6 @@ body { /* Website Style */
     margin: 1px;      /* Smaller margin for compact spacing */
     padding: 1px;     /* Adjusted for sub-items */
   }
-
 }
 
 /* iframe container - just using for YouTube at moment... */
@@ -189,3 +200,4 @@ table#noborder td {
   table-layout: fixed;
   width: 100%;
 }
+
