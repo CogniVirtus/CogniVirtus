@@ -64,6 +64,18 @@ body { /* Website Style */
   font-family: 'Helvetica', 'Arial', sans-serif;
 }
 
+/* Table styles */
+
+table#noborder td {
+  border: none;
+  vertical-align: top;
+}
+
+.fixed-table {
+  table-layout: fixed;
+  width: 100%;
+}
+
 /*
   Responsive image styles
 */
@@ -78,8 +90,28 @@ body { /* Website Style */
 }
 
 /*
+  iframe container for YouTube
+*/
+.iframe-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+  height: 0;
+}
+
+.iframe-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/*
   Navigation Menu
 */
+
+/* Make sure there are no borders, shadows, or backgrounds */
 .nav, .nav-container, 
 .nav-item .nav-item.active, .nav-item.active.nav-link,
 .nav-link, .nav-link:hover, .nav-link:active, .nav-link:focus {
@@ -88,62 +120,58 @@ body { /* Website Style */
   background: none; /* Ensures no backgrounds are applied */
 }
 
-.nav { /* This selector targets the top-level nav */
+.nav {              /* Top-level nav */
   display: flex;
-  flex-wrap: wrap;      /* This allows the menu items to wrap onto the next line on small screens */
-  align-items: left;  /* Ensures vertical alignment is left */
-  padding: 2px;       /* Add vertical padding for better optics */
+  flex-wrap: wrap;  /* This allows the menu items to wrap onto the next line on small screens */
+  align-items: left;/* Ensures vertical alignment is left */
+  padding: 2px;     /* Add vertical padding for better optics */
   font-family: Helvetica, Arial, sans-serif;
   list-style-type: none;
 }
 
+/*
+  Nav box colours
+*/
+.nav > .nav-item > .nav-link {
+  background-color: #6294bd; /* Cognivirtus Matt Blue */
+  color: white; /* Adjust text color as needed */
+}
+
+/* Sub-menu navigation links */
+.nav .nav-item .nav > .nav-item > .nav-link {
+  background-color: #b99dc7; /* Cognivirtus Matt Purple */
+  color: white; /* Adjust text color as needed */
+}
 
 .nav-item {
   margin:  2px;
-  padding: 2px;           /* Add padding to increase the clickable area and aesthetics */
-}
-/*
-.nav-item:hover {
-  background-color: #5c7ab2; /* Darker border on hover * /
-}
-*/
-.nav-item.active {
-  /* background-color: #c8d5e2; */
-  color: #4d4c4c;
-}
-
-.nav-item.active.nav-link {
-  color: #000000;
+  padding: 2px;     /* Add padding to increase the clickable area and aesthetics */
 }
 
 .nav-link {
   display: block;
-  padding: 8px 15px; /* Adjust padding to ensure text is centered and has some spacing */
-  background-color: #6C7AE0; /* A more vibrant color */
-  color: white; /* Contrast color for the text */
+  padding: 8px 15px;     /* Adjust padding to ensure text is centered and has some spacing */
   text-decoration: none; /* Removes underline from links */
-  border-radius: 10px; /* Rounded corners, adjust the px value to increase/decrease roundness */
-  transition: background-color 0.3s; /* Smooth transition for hover effect */
+  border-radius: 10px;   /* Rounded corners, adjust the px value to increase/decrease roundness */
 }
 
 .nav-link:hover {
-  font-weight: bold;           /* Bold text on hover */
-  background-color: #5A6ABF; /* Slightly darker shade on hover for interactive feel */
+  font-weight: bold;     /* Bold text on hover */
 }
 
 .nav > li.nav-item { /* This selector targets only top-level nav-items */
   display:  flex; /* Flex to allow vertical centering */
   flex-direction: column;
-  border-radius: 2px;
+  /* border-radius: 2px; */
   margin:   2px;
   padding:  2px; /* Adjust padding to increase the clickable area and aesthetics */
 }
 
 /* Ensure that the sub-menu items do not inherit the min-height */
-.nav .nav-item .nav { /* This targets the nested nav within nav-items */
+.nav .nav-item .nav {     /* This targets the nested nav within nav-items */
   display: flex;
-  flex-direction: row; /* Change this line */
-  min-height: auto;   /* Overrides any inherited min-height */
+  flex-direction: row;    /* Change this line */
+  min-height: auto;       /* Overrides any inherited min-height */
 }
 
 .nav .nav-item .nav li {  /* Targeting sub-menu nav-items specifically */
@@ -171,33 +199,3 @@ body { /* Website Style */
     padding: 1px;     /* Adjusted for sub-items */
   }
 }
-
-/* iframe container - just using for YouTube at moment... */
-
-.iframe-container {
-  position: relative;
-  width: 100%;
-  padding-bottom: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
-  height: 0;
-}
-
-.iframe-container iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-
-/* Table styles */
-
-table#noborder td {
-  border: none;
-  vertical-align: top;
-}
-
-.fixed-table {
-  table-layout: fixed;
-  width: 100%;
-}
-

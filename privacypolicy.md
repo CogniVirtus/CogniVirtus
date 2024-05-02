@@ -5,6 +5,8 @@
 Welcome to [cognivirtus.com](https://cognivirtus.com). This privacy policy describes our policies and procedures on the collection,
 use, and disclosure of your information when you use the website and tells you about your privacy rights and how the law protects you.
 
+ We collect minimal information ([CloudFlare Web Analytics](https://www.cloudflare.com/en-au/web-analytics/) across our site) which *does not profile you or your organisation*.
+
 ## 1. Information We Do Not Collect
 
 At CogniVirtus, we aim to provide you with a safe and secure user experience. The website is informational and, through its direct features, does not collect personal data from its visitors. Therefore, we do not require our users to provide personal information to visit and use the website.
