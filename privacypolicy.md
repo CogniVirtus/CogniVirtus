@@ -28,7 +28,7 @@ We have no control over and assume no responsibility for the content, privacy po
 
 ## Embedded Google Forms
 
-We currently use Google Forms<sup>*</sup> for [Contact](./contact.md) and [Product Waitlists](./Products/architectureCopilotPreview.md) You can view Google's Privacy Policy here: https://policies.google.com/privacy. They do comply with the DPF as set forth by the US Department of Commerce along with EU-U.S. and Swiss-U.S. Data Privacy Frameworks (DPF) and the UK Extension to the EU-U.S.
+We currently use Google Forms<sup>*</sup> for [Contact](./contact.html), [Feedback](./Products/architectureCopilotFeedback.html) and [Product Waitlists](./Products/architectureCopilotPreview.html) You can view Google's Privacy Policy here: https://policies.google.com/privacy. They do comply with the DPF as set forth by the US Department of Commerce along with EU-U.S. and Swiss-U.S. Data Privacy Frameworks (DPF) and the UK Extension to the EU-U.S.
 
 ## 4. Changes to This Privacy Policy
 
